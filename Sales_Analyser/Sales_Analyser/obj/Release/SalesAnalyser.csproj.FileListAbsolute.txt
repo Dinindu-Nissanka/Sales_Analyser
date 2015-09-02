@@ -1,0 +1,16 @@
+C:\Users\Dinindu123\Documents\Visual Studio 2013\Projects\Modern_UI\Modern_UI\bin\Release\SalesAnalyser.exe.config
+C:\Users\Dinindu123\Documents\Visual Studio 2013\Projects\Modern_UI\Modern_UI\bin\Release\SalesAnalyser.exe
+C:\Users\Dinindu123\Documents\Visual Studio 2013\Projects\Modern_UI\Modern_UI\bin\Release\SalesAnalyser.pdb
+C:\Users\Dinindu123\Documents\Visual Studio 2013\Projects\Modern_UI\Modern_UI\bin\Release\MetroFramework.Design.dll
+C:\Users\Dinindu123\Documents\Visual Studio 2013\Projects\Modern_UI\Modern_UI\bin\Release\MetroFramework.dll
+C:\Users\Dinindu123\Documents\Visual Studio 2013\Projects\Modern_UI\Modern_UI\bin\Release\MetroFramework.Fonts.dll
+C:\Users\Dinindu123\Documents\Visual Studio 2013\Projects\Modern_UI\Modern_UI\bin\Release\MetroFramework.Design.pdb
+C:\Users\Dinindu123\Documents\Visual Studio 2013\Projects\Modern_UI\Modern_UI\bin\Release\MetroFramework.Fonts.pdb
+C:\Users\Dinindu123\Documents\Visual Studio 2013\Projects\Modern_UI\Modern_UI\obj\Release\Modern_UI.Main_Form.resources
+C:\Users\Dinindu123\Documents\Visual Studio 2013\Projects\Modern_UI\Modern_UI\obj\Release\SalesAnalyser.Properties.Resources.resources
+C:\Users\Dinindu123\Documents\Visual Studio 2013\Projects\Modern_UI\Modern_UI\obj\Release\SalesAnalyser.csproj.GenerateResource.Cache
+C:\Users\Dinindu123\Documents\Visual Studio 2013\Projects\Modern_UI\Modern_UI\obj\Release\SalesAnalyser.exe.licenses
+C:\Users\Dinindu123\Documents\Visual Studio 2013\Projects\Modern_UI\Modern_UI\obj\Release\SalesAnalyser.exe
+C:\Users\Dinindu123\Documents\Visual Studio 2013\Projects\Modern_UI\Modern_UI\obj\Release\SalesAnalyser.pdb
+C:\Users\Dinindu123\Documents\Visual Studio 2013\Projects\Modern_UI\Modern_UI\obj\Release\SalesAnalyser.csprojResolveAssemblyReference.cache
+C:\Users\Dinindu123\Documents\Visual Studio 2013\Projects\Modern_UI\Modern_UI\obj\Release\SalesAnalyser.Login_Form.resources

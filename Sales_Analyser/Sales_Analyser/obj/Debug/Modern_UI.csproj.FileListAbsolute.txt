@@ -1,0 +1,15 @@
+c:\users\dinindu123\documents\visual studio 2013\Projects\Modern_UI\Modern_UI\bin\Debug\Modern_UI.exe.config
+c:\users\dinindu123\documents\visual studio 2013\Projects\Modern_UI\Modern_UI\bin\Debug\Modern_UI.exe
+c:\users\dinindu123\documents\visual studio 2013\Projects\Modern_UI\Modern_UI\bin\Debug\Modern_UI.pdb
+c:\users\dinindu123\documents\visual studio 2013\Projects\Modern_UI\Modern_UI\obj\Debug\Modern_UI.csprojResolveAssemblyReference.cache
+c:\users\dinindu123\documents\visual studio 2013\Projects\Modern_UI\Modern_UI\obj\Debug\Modern_UI.Properties.Resources.resources
+c:\users\dinindu123\documents\visual studio 2013\Projects\Modern_UI\Modern_UI\obj\Debug\Modern_UI.csproj.GenerateResource.Cache
+c:\users\dinindu123\documents\visual studio 2013\Projects\Modern_UI\Modern_UI\obj\Debug\Modern_UI.exe.licenses
+c:\users\dinindu123\documents\visual studio 2013\Projects\Modern_UI\Modern_UI\obj\Debug\Modern_UI.exe
+c:\users\dinindu123\documents\visual studio 2013\Projects\Modern_UI\Modern_UI\obj\Debug\Modern_UI.pdb
+c:\users\dinindu123\documents\visual studio 2013\Projects\Modern_UI\Modern_UI\bin\Debug\MetroFramework.Design.dll
+c:\users\dinindu123\documents\visual studio 2013\Projects\Modern_UI\Modern_UI\bin\Debug\MetroFramework.dll
+c:\users\dinindu123\documents\visual studio 2013\Projects\Modern_UI\Modern_UI\bin\Debug\MetroFramework.Fonts.dll
+c:\users\dinindu123\documents\visual studio 2013\Projects\Modern_UI\Modern_UI\bin\Debug\MetroFramework.Design.pdb
+c:\users\dinindu123\documents\visual studio 2013\Projects\Modern_UI\Modern_UI\bin\Debug\MetroFramework.Fonts.pdb
+c:\users\dinindu123\documents\visual studio 2013\Projects\Modern_UI\Modern_UI\obj\Debug\Modern_UI.Main_Form.resources
