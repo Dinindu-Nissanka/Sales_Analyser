@@ -11,8 +11,8 @@ namespace Modern_UI
     class DatabaseConnector
     {
 
-        //private string myString = "Server=localhost;Database=sales_analyser;Uid=root;Pwd=;";
-        private string myString = "Server=db4free.net;Database=sales_analyser;Uid=dmmnissanka;Pwd=dinindu;";
+        private string myString = "Server=localhost;Database=sales_analyser;Uid=root;Pwd=;";
+        //private string myString = "Server=db4free.net;Database=sales_analyser;Uid=dmmnissanka;Pwd=dinindu;";
         //private string myString = "Server=mysql.hostinger.co.uk;Database=u373391967_sep;Uid=u373391967_sep;Pwd=Dinindu;";
         
         private static DatabaseConnector con_instance;
@@ -34,8 +34,6 @@ namespace Modern_UI
             {
                 Console.WriteLine("Connection is null");
             }
-            IPHostEntry ip = Dns.GetHostByName("dinindu.pe.hu");
-            Console.WriteLine("IP of the server : "+ip.ToString());
             return con;
         }
     }

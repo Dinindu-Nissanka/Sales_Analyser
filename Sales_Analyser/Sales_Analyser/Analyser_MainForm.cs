@@ -51,8 +51,6 @@ namespace Modern_UI
             this.tile_analyst.BackColor = Color.MediumVioletRed;
             this.panel_choice.BackColor = Color.Transparent;
 
-            this.button_ChartBack.FlatStyle = FlatStyle.Flat;
-            this.button_ChartBack.FlatAppearance.BorderSize = 0;
         }
 
         public void init_Charts()
@@ -211,12 +209,6 @@ namespace Modern_UI
             this.button_logout.Show();
         }
 
-        private void button_ChartBack_Click(object sender, EventArgs e)
-        {
-            this.panel_Chart.Hide();
-            this.panel_Analyst.Show();
-            this.button_logout.Show();
-        }
 
         private void comboBox_ChartCountry_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -558,14 +550,6 @@ namespace Modern_UI
             }
         }
 
-
-        private void button_ForecastedBack_Click(object sender, EventArgs e)
-        {
-            this.panel_ForecastedData.Hide();
-            this.panel_Analyst.Show();
-            this.button_logout.Show();
-        }
-
         private void button_ForecastedDataView_Click_1(object sender, EventArgs e)
         {
             //int validity = dataArranger.checkForecastedDataValidity((this.comboBox_ForecastedRegion.SelectedItem as Region).region_id,this.forecasted_yData_type,this.);
@@ -658,9 +642,7 @@ namespace Modern_UI
 
         private void button_BackNewAdmin_Click(object sender, EventArgs e)
         {
-            this.panel_NewAdmin.Hide();
-            this.panel_Admin.Show();
-            this.button_logout.Show();
+            
         }
 
         private void button_BackDealer_Click(object sender, EventArgs e)
@@ -695,6 +677,27 @@ namespace Modern_UI
             this.button_logout.Show();
             this.label_LoggedName.Text = name;
             this.label_LoggedName.Show();
+        }
+
+        private void pictureBox_ChartBack_Click(object sender, EventArgs e)
+        {
+            this.panel_Chart.Hide();
+            this.panel_Analyst.Show();
+            this.button_logout.Show();
+        }
+
+        private void pictureBox_ForecastedBack_Click(object sender, EventArgs e)
+        {
+            this.panel_ForecastedData.Hide();
+            this.panel_Analyst.Show();
+            this.button_logout.Show();
+        }
+
+        private void pictureBox_NewAdminBack_Click(object sender, EventArgs e)
+        {
+            this.panel_NewAdmin.Hide();
+            this.panel_Admin.Show();
+            this.button_logout.Show();
         }
     }
 }

@@ -59,12 +59,12 @@
             this.comboBox_pastDataCountry = new MetroFramework.Controls.MetroComboBox();
             this.grid_pastData = new MetroFramework.Controls.MetroGrid();
             this.panel_Chart = new MetroFramework.Controls.MetroPanel();
+            this.pictureBox_ChartBack = new System.Windows.Forms.PictureBox();
             this.comboBox_ChartType = new MetroFramework.Controls.MetroComboBox();
             this.label_ChartType = new MetroFramework.Controls.MetroLabel();
             this.comboBox_RegressionType = new MetroFramework.Controls.MetroComboBox();
             this.label_RegressionType = new MetroFramework.Controls.MetroLabel();
             this.button_ViewChart = new MetroFramework.Controls.MetroButton();
-            this.button_ChartBack = new MetroFramework.Controls.MetroButton();
             this.label_ChartTitle = new MetroFramework.Controls.MetroLabel();
             this.chart_PastData = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -122,7 +122,6 @@
             this.label_ForecastedRegion = new MetroFramework.Controls.MetroLabel();
             this.label_ForecastedCountry = new MetroFramework.Controls.MetroLabel();
             this.label_ForecastedTitle = new MetroFramework.Controls.MetroLabel();
-            this.button_ForecastedBack = new MetroFramework.Controls.MetroButton();
             this.panel_NewAdmin = new MetroFramework.Controls.MetroPanel();
             this.button_SubmitNewAdmin = new MetroFramework.Controls.MetroButton();
             this.textBox_EmailAdmin = new MetroFramework.Controls.MetroTextBox();
@@ -135,7 +134,6 @@
             this.label_NameAdmin = new MetroFramework.Controls.MetroLabel();
             this.label_EmailAdmin = new MetroFramework.Controls.MetroLabel();
             this.label_UsernameAdmin = new MetroFramework.Controls.MetroLabel();
-            this.button_BackNewAdmin = new MetroFramework.Controls.MetroButton();
             this.label_TitleNewAdmin = new MetroFramework.Controls.MetroLabel();
             this.panel_NewDealer = new MetroFramework.Controls.MetroPanel();
             this.button_SubmitNewDealer = new MetroFramework.Controls.MetroButton();
@@ -167,11 +165,14 @@
             this.label_NewAnalysistTitle = new MetroFramework.Controls.MetroLabel();
             this.toolTip = new MetroFramework.Components.MetroToolTip();
             this.label_LoggedName = new MetroFramework.Controls.MetroLabel();
+            this.pictureBox_ForecastedBack = new System.Windows.Forms.PictureBox();
+            this.pictureBox_NewAdminBack = new System.Windows.Forms.PictureBox();
             this.panel_choice.SuspendLayout();
             this.panel_Analyst.SuspendLayout();
             this.panel_pastData.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grid_pastData)).BeginInit();
             this.panel_Chart.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_ChartBack)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart_PastData)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -184,6 +185,8 @@
             this.panel_NewAdmin.SuspendLayout();
             this.panel_NewDealer.SuspendLayout();
             this.panel_NewAnalysist.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_ForecastedBack)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_NewAdminBack)).BeginInit();
             this.SuspendLayout();
             // 
             // panel_choice
@@ -457,12 +460,12 @@
             // 
             // panel_Chart
             // 
+            this.panel_Chart.Controls.Add(this.pictureBox_ChartBack);
             this.panel_Chart.Controls.Add(this.comboBox_ChartType);
             this.panel_Chart.Controls.Add(this.label_ChartType);
             this.panel_Chart.Controls.Add(this.comboBox_RegressionType);
             this.panel_Chart.Controls.Add(this.label_RegressionType);
             this.panel_Chart.Controls.Add(this.button_ViewChart);
-            this.panel_Chart.Controls.Add(this.button_ChartBack);
             this.panel_Chart.Controls.Add(this.label_ChartTitle);
             this.panel_Chart.Controls.Add(this.chart_PastData);
             this.panel_Chart.Controls.Add(this.groupBox2);
@@ -484,6 +487,17 @@
             this.panel_Chart.VerticalScrollbarBarColor = true;
             this.panel_Chart.VerticalScrollbarHighlightOnWheel = false;
             this.panel_Chart.VerticalScrollbarSize = 10;
+            // 
+            // pictureBox_ChartBack
+            // 
+            this.pictureBox_ChartBack.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox_ChartBack.Image = global::SalesAnalyser.Properties.Resources.back;
+            this.pictureBox_ChartBack.Location = new System.Drawing.Point(16, 4);
+            this.pictureBox_ChartBack.Name = "pictureBox_ChartBack";
+            this.pictureBox_ChartBack.Size = new System.Drawing.Size(32, 33);
+            this.pictureBox_ChartBack.TabIndex = 23;
+            this.pictureBox_ChartBack.TabStop = false;
+            this.pictureBox_ChartBack.Click += new System.EventHandler(this.pictureBox_ChartBack_Click);
             // 
             // comboBox_ChartType
             // 
@@ -534,18 +548,6 @@
             this.button_ViewChart.Text = "View Chart";
             this.button_ViewChart.UseSelectable = true;
             this.button_ViewChart.Click += new System.EventHandler(this.button_ViewChart_Click);
-            // 
-            // button_ChartBack
-            // 
-            this.button_ChartBack.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.button_ChartBack.DisplayFocus = true;
-            this.button_ChartBack.Location = new System.Drawing.Point(16, 3);
-            this.button_ChartBack.Name = "button_ChartBack";
-            this.button_ChartBack.Size = new System.Drawing.Size(32, 33);
-            this.button_ChartBack.Style = MetroFramework.MetroColorStyle.Red;
-            this.button_ChartBack.TabIndex = 17;
-            this.button_ChartBack.UseSelectable = true;
-            this.button_ChartBack.Click += new System.EventHandler(this.button_ChartBack_Click);
             // 
             // label_ChartTitle
             // 
@@ -765,6 +767,7 @@
             // 
             // panel_ForecastedData
             // 
+            this.panel_ForecastedData.Controls.Add(this.pictureBox_ForecastedBack);
             this.panel_ForecastedData.Controls.Add(this.panel_forecastedGrid);
             this.panel_ForecastedData.Controls.Add(this.textBox_ForecastingNumber);
             this.panel_ForecastedData.Controls.Add(this.button_ForecastedDataView);
@@ -781,7 +784,6 @@
             this.panel_ForecastedData.Controls.Add(this.label_ForecastedRegion);
             this.panel_ForecastedData.Controls.Add(this.label_ForecastedCountry);
             this.panel_ForecastedData.Controls.Add(this.label_ForecastedTitle);
-            this.panel_ForecastedData.Controls.Add(this.button_ForecastedBack);
             this.panel_ForecastedData.HorizontalScrollbarBarColor = true;
             this.panel_ForecastedData.HorizontalScrollbarHighlightOnWheel = false;
             this.panel_ForecastedData.HorizontalScrollbarSize = 10;
@@ -1243,18 +1245,9 @@
             this.label_ForecastedTitle.TabIndex = 3;
             this.label_ForecastedTitle.Text = "Forecasted Value\r\n";
             // 
-            // button_ForecastedBack
-            // 
-            this.button_ForecastedBack.Location = new System.Drawing.Point(17, 4);
-            this.button_ForecastedBack.Name = "button_ForecastedBack";
-            this.button_ForecastedBack.Size = new System.Drawing.Size(75, 23);
-            this.button_ForecastedBack.TabIndex = 2;
-            this.button_ForecastedBack.Text = "Back";
-            this.button_ForecastedBack.UseSelectable = true;
-            this.button_ForecastedBack.Click += new System.EventHandler(this.button_ForecastedBack_Click);
-            // 
             // panel_NewAdmin
             // 
+            this.panel_NewAdmin.Controls.Add(this.pictureBox_NewAdminBack);
             this.panel_NewAdmin.Controls.Add(this.button_SubmitNewAdmin);
             this.panel_NewAdmin.Controls.Add(this.textBox_EmailAdmin);
             this.panel_NewAdmin.Controls.Add(this.textBox_UsernameAdmin);
@@ -1266,7 +1259,6 @@
             this.panel_NewAdmin.Controls.Add(this.label_NameAdmin);
             this.panel_NewAdmin.Controls.Add(this.label_EmailAdmin);
             this.panel_NewAdmin.Controls.Add(this.label_UsernameAdmin);
-            this.panel_NewAdmin.Controls.Add(this.button_BackNewAdmin);
             this.panel_NewAdmin.Controls.Add(this.label_TitleNewAdmin);
             this.panel_NewAdmin.HorizontalScrollbarBarColor = true;
             this.panel_NewAdmin.HorizontalScrollbarHighlightOnWheel = false;
@@ -1398,16 +1390,6 @@
             this.label_UsernameAdmin.Size = new System.Drawing.Size(68, 19);
             this.label_UsernameAdmin.TabIndex = 4;
             this.label_UsernameAdmin.Text = "Username";
-            // 
-            // button_BackNewAdmin
-            // 
-            this.button_BackNewAdmin.Location = new System.Drawing.Point(17, 4);
-            this.button_BackNewAdmin.Name = "button_BackNewAdmin";
-            this.button_BackNewAdmin.Size = new System.Drawing.Size(75, 23);
-            this.button_BackNewAdmin.TabIndex = 3;
-            this.button_BackNewAdmin.Text = "Back";
-            this.button_BackNewAdmin.UseSelectable = true;
-            this.button_BackNewAdmin.Click += new System.EventHandler(this.button_BackNewAdmin_Click);
             // 
             // label_TitleNewAdmin
             // 
@@ -1762,18 +1744,39 @@
             this.label_LoggedName.Size = new System.Drawing.Size(0, 0);
             this.label_LoggedName.TabIndex = 33;
             // 
+            // pictureBox_ForecastedBack
+            // 
+            this.pictureBox_ForecastedBack.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox_ForecastedBack.Image = global::SalesAnalyser.Properties.Resources.back;
+            this.pictureBox_ForecastedBack.Location = new System.Drawing.Point(17, 4);
+            this.pictureBox_ForecastedBack.Name = "pictureBox_ForecastedBack";
+            this.pictureBox_ForecastedBack.Size = new System.Drawing.Size(31, 33);
+            this.pictureBox_ForecastedBack.TabIndex = 45;
+            this.pictureBox_ForecastedBack.TabStop = false;
+            this.pictureBox_ForecastedBack.Click += new System.EventHandler(this.pictureBox_ForecastedBack_Click);
+            // 
+            // pictureBox_NewAdminBack
+            // 
+            this.pictureBox_NewAdminBack.Image = global::SalesAnalyser.Properties.Resources.back;
+            this.pictureBox_NewAdminBack.Location = new System.Drawing.Point(17, 4);
+            this.pictureBox_NewAdminBack.Name = "pictureBox_NewAdminBack";
+            this.pictureBox_NewAdminBack.Size = new System.Drawing.Size(31, 33);
+            this.pictureBox_NewAdminBack.TabIndex = 15;
+            this.pictureBox_NewAdminBack.TabStop = false;
+            this.pictureBox_NewAdminBack.Click += new System.EventHandler(this.pictureBox_NewAdminBack_Click);
+            // 
             // Main_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackMaxSize = 2000;
             this.ClientSize = new System.Drawing.Size(1189, 645);
-            this.Controls.Add(this.panel_Chart);
-            this.Controls.Add(this.panel_ForecastedData);
-            this.Controls.Add(this.label_LoggedName);
-            this.Controls.Add(this.panel_choice);
-            this.Controls.Add(this.panel_Analyst);
             this.Controls.Add(this.panel_NewAdmin);
+            this.Controls.Add(this.panel_choice);
+            this.Controls.Add(this.panel_ForecastedData);
+            this.Controls.Add(this.panel_Chart);
+            this.Controls.Add(this.label_LoggedName);
+            this.Controls.Add(this.panel_Analyst);
             this.Controls.Add(this.panel_Admin);
             this.Controls.Add(this.panel_pastData);
             this.Controls.Add(this.panel_NewDealer);
@@ -1789,6 +1792,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.grid_pastData)).EndInit();
             this.panel_Chart.ResumeLayout(false);
             this.panel_Chart.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_ChartBack)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart_PastData)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
@@ -1810,6 +1814,8 @@
             this.panel_NewDealer.PerformLayout();
             this.panel_NewAnalysist.ResumeLayout(false);
             this.panel_NewAnalysist.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_ForecastedBack)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_NewAdminBack)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1854,7 +1860,6 @@
         private MetroFramework.Controls.MetroButton button_PastDataBack;
         private MetroFramework.Controls.MetroLabel label_PastSalesData;
         private MetroFramework.Controls.MetroLabel label_ChartTitle;
-        private MetroFramework.Controls.MetroButton button_ChartBack;
         private MetroFramework.Controls.MetroButton button_ViewChart;
         private MetroFramework.Controls.MetroComboBox comboBox_ChartType;
         private MetroFramework.Controls.MetroLabel label_ChartType;
@@ -1874,7 +1879,6 @@
         private MetroFramework.Controls.MetroLabel label_ForecastedRegion;
         private MetroFramework.Controls.MetroLabel label_ForecastedCountry;
         private MetroFramework.Controls.MetroLabel label_ForecastedTitle;
-        private MetroFramework.Controls.MetroButton button_ForecastedBack;
         private System.Windows.Forms.GroupBox groupBox3;
         private MetroFramework.Controls.MetroRadioButton radioButton_ForecastedSeason;
         private MetroFramework.Controls.MetroRadioButton radioButton_ForecastedMonth;
@@ -1889,7 +1893,6 @@
         private MetroFramework.Controls.MetroLabel label_NameAdmin;
         private MetroFramework.Controls.MetroLabel label_EmailAdmin;
         private MetroFramework.Controls.MetroLabel label_UsernameAdmin;
-        private MetroFramework.Controls.MetroButton button_BackNewAdmin;
         private MetroFramework.Controls.MetroLabel label_TitleNewAdmin;
         private MetroFramework.Controls.MetroButton button_SubmitNewAdmin;
         private MetroFramework.Controls.MetroPanel panel_NewDealer;
@@ -1944,6 +1947,9 @@
         private MetroFramework.Controls.MetroTextBox textBox_MPE;
         private MetroFramework.Controls.MetroTextBox textBox_MSE;
         private MetroFramework.Controls.MetroLabel label_LoggedName;
+        private System.Windows.Forms.PictureBox pictureBox_ChartBack;
+        private System.Windows.Forms.PictureBox pictureBox_ForecastedBack;
+        private System.Windows.Forms.PictureBox pictureBox_NewAdminBack;
 
 
 

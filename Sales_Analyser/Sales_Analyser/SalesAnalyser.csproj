@@ -114,6 +114,7 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="Resources\admin.png" />
+    <None Include="Resources\back.png" />
     <Content Include="Resources\background.jpg" />
     <Content Include="Resources\chart.png" />
     <Content Include="Resources\Data-Grid.png" />
