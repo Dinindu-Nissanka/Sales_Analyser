@@ -25,17 +25,25 @@ namespace SalesAnalyser
             InitializeComponent();
         }
 
-
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams cp = base.CreateParams;
+                cp.ExStyle |= 0x02000000;
+                return cp;
+            }
+        } 
         private void button_Login_Click(object sender, EventArgs e)
         {
             string username = this.textBox_Username.Text;
             string password = this.textBox_Password.Text;
             string loggedName = da.checkLoginAuthentication(this.type, username, password,this);
-            if (loggedName!=null)
+            if (loggedName != null)
             {
-                this.Hide();
+                this.Close();
                 this.form.Enabled = true;
-                if (this.type == 1) 
+                if (this.type == 1)
                 {
                     this.form.adminLoginSuccessful(loggedName);
                 }
@@ -43,28 +51,17 @@ namespace SalesAnalyser
                 {
                     this.form.analysistLoginSuccessful(loggedName);
                 }
-                
-            }/*
-            else
-            {
-                MetroFramework.MetroMessageBox.Show(this, "Login attempt failed" + "\n" + "Username or Password is incorrect", "Login was unsuccessful", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            /*using (OpenFileDialog dlg = new OpenFileDialog())
-            {
-                dlg.Title = "Open Image";
-                dlg.Filter = "jpg files (*.jpg)|*.jpg|png files (*.png)|*.png" + "|All image files (*.jpg, *.png)|*.jpg;*.png";
-
-                if (dlg.ShowDialog() == DialogResult.OK)
+                else
                 {
-                    //PictureBox PictureBox1 = new PictureBox();
-
-                    // Create a new Bitmap object from the picture file on disk,
-                    // and assign that to the PictureBox.Image property
-                    //PictureBox1.Image = new Bitmap(dlg.FileName);
-                    Console.WriteLine(dlg.SafeFileName);
-                    //Console.WriteLine(dlg.);
+                    this.form.reviewerLoginSuccessful(loggedName);
                 }
-            }*/
+
+            }
+            else 
+            {
+                this.textBox_Username.Text = "";
+                this.textBox_Password.Text = "";
+            }
         }
 
         private void Login_Form_FormClosed(object sender, FormClosedEventArgs e)

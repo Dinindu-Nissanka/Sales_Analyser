@@ -14,3 +14,20 @@ C:\Users\Dinindu123\Documents\Visual Studio 2013\Projects\Modern_UI\Modern_UI\ob
 C:\Users\Dinindu123\Documents\Visual Studio 2013\Projects\Modern_UI\Modern_UI\obj\Release\SalesAnalyser.pdb
 C:\Users\Dinindu123\Documents\Visual Studio 2013\Projects\Modern_UI\Modern_UI\obj\Release\SalesAnalyser.csprojResolveAssemblyReference.cache
 C:\Users\Dinindu123\Documents\Visual Studio 2013\Projects\Modern_UI\Modern_UI\obj\Release\SalesAnalyser.Login_Form.resources
+C:\Users\Dinindu123\Documents\GitHub\Sales_Analyser\Sales_Analyser\Sales_Analyser\obj\Release\SalesAnalyser.Properties.Resources.resources
+C:\Users\Dinindu123\Documents\GitHub\Sales_Analyser\Sales_Analyser\Sales_Analyser\obj\Release\Modern_UI.Main_Form.resources
+C:\Users\Dinindu123\Documents\GitHub\Sales_Analyser\Sales_Analyser\Sales_Analyser\obj\Release\SalesAnalyser.ChangePasswordWindow.resources
+C:\Users\Dinindu123\Documents\GitHub\Sales_Analyser\Sales_Analyser\Sales_Analyser\obj\Release\SalesAnalyser.Login_Form.resources
+C:\Users\Dinindu123\Documents\GitHub\Sales_Analyser\Sales_Analyser\Sales_Analyser\obj\Release\SalesAnalyser.csproj.GenerateResource.Cache
+C:\Users\Dinindu123\Documents\GitHub\Sales_Analyser\Sales_Analyser\Sales_Analyser\bin\Release\SalesAnalyser.exe.config
+C:\Users\Dinindu123\Documents\GitHub\Sales_Analyser\Sales_Analyser\Sales_Analyser\obj\Release\SalesAnalyser.exe.licenses
+C:\Users\Dinindu123\Documents\GitHub\Sales_Analyser\Sales_Analyser\Sales_Analyser\bin\Release\SalesAnalyser.exe
+C:\Users\Dinindu123\Documents\GitHub\Sales_Analyser\Sales_Analyser\Sales_Analyser\bin\Release\SalesAnalyser.pdb
+C:\Users\Dinindu123\Documents\GitHub\Sales_Analyser\Sales_Analyser\Sales_Analyser\bin\Release\MetroFramework.Design.dll
+C:\Users\Dinindu123\Documents\GitHub\Sales_Analyser\Sales_Analyser\Sales_Analyser\bin\Release\MetroFramework.dll
+C:\Users\Dinindu123\Documents\GitHub\Sales_Analyser\Sales_Analyser\Sales_Analyser\bin\Release\MetroFramework.Fonts.dll
+C:\Users\Dinindu123\Documents\GitHub\Sales_Analyser\Sales_Analyser\Sales_Analyser\bin\Release\MetroFramework.Design.pdb
+C:\Users\Dinindu123\Documents\GitHub\Sales_Analyser\Sales_Analyser\Sales_Analyser\bin\Release\MetroFramework.Fonts.pdb
+C:\Users\Dinindu123\Documents\GitHub\Sales_Analyser\Sales_Analyser\Sales_Analyser\obj\Release\SalesAnalyser.exe
+C:\Users\Dinindu123\Documents\GitHub\Sales_Analyser\Sales_Analyser\Sales_Analyser\obj\Release\SalesAnalyser.pdb
+C:\Users\Dinindu123\Documents\GitHub\Sales_Analyser\Sales_Analyser\Sales_Analyser\obj\Release\SalesAnalyser.csprojResolveAssemblyReference.cache
